@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return render(request,'generator/home.html',{'anykey' : 'anyvalue'})
+    return render(request,'generator/home.html')
 
-def mypage(request):
-    return HttpResponse("<h1>welcome to mypage!</h1>")
+def password(request):
+    return  render(request,'generator/password.html')

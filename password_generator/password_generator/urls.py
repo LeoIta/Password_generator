@@ -19,5 +19,5 @@ from generator import views
 
 urlpatterns = [
     path('',views.home),
-    path('mypage/',views.mypage)
+    path('password/',views.password)
 ]
