@@ -5,4 +5,5 @@ def home(request):
     return render(request,'generator/home.html')
 
 def password(request):
-    return  render(request,'generator/password.html')
+    my_password = 'null'
+    return  render(request,'generator/password.html',{'password':my_password})
